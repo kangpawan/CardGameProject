@@ -28,4 +28,16 @@ public class printCard {
 		Play playground = new Play(p1,p2);
 		playground.play();
 	}
+        public boolean chechName1(String n1){
+            if (n1.length()>10) {
+                return true;
+            } 
+            return false;
+        }
+         public boolean chechName2(String n2){
+            if (n2.length()>10) {
+                return true;
+            } 
+            return false;
+        }
 }
